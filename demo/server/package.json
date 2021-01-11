@@ -1,0 +1,24 @@
+{
+  "name": "thai-cutter-demo",
+  "version": "1.0.0",
+  "description": "A demo for thai cutter project",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --project tsconfig.json && node index"
+  },
+  "author": "Kawin Rattanpun, Poomphat Kaewprasit",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^2.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.7",
+    "@types/node": "^14.0.20"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
